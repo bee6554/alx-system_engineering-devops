@@ -1,2 +1,2 @@
 #!/bin/bash
-sort | tail -10 \
+cat tail -10 -type f \
