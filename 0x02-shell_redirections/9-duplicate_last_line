@@ -1,2 +1,2 @@
 #!/bin/bash
-sort input_iacta | uniq -d | tail -1 \
+cat ./iacta | tail --lines=1 >> iacta \
